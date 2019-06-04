@@ -1,0 +1,8 @@
+Fazer hosting
+Upar pro github
+Retirar linhas desnecessarias
+Mexer no css botao select e no filtro
+Fazer login através de facebook e twitter
+Passar o eslint no arquivo
+Impedir de postar em branco
+Tentar incluir algo do lado direito do campo
