@@ -50,7 +50,7 @@ function createPost(text, key, type, like) {
     template = `
         <div class="list-post" data-div-id=${key}>
             <div class="card mb-2"  data-div-id=${key}>
-                <div class=" d-flex  justify-content-around background-green">
+                <div class=" d-flex  justify-content-between background-green">
                     <div>
                         <button class="btn" value="Delete" data-delete-id=${key}><i class="fas fa-trash-alt"></i> </button>
                         <button class="btn" value="Edit" data-edit-id=${key}><i class="fas fa-edit"></i></button> 
@@ -58,8 +58,8 @@ function createPost(text, key, type, like) {
                     </div>
                     <div>
                     <form id="like-form">
-                        <button class="btn" data-like-id=${key} data-count-id=${like} class="like-button"><i class="fab fa-gratipay"></i>${like}</button>
                         <span data-text-id=${key}>${type}<span>
+                        <button class="btn" data-like-id=${key} data-count-id=${like} class="like-button"><i class="fab fa-gratipay"></i>${like}</button>   
                     </form>    
                     </div>                
                 </div>    

@@ -84,35 +84,32 @@
         </section>
       </div>
       <main class="col-md-6 mb-6">
-        <form action="">
-          <div class="card mb-2">
-            <div class="card-header d-flex justify-content-between background-green">
+        <form>
+          <div class="card">
+            <div class="card-header d-flex justify-content-around background-green">
               <div class="photoUser"></div>
-              <button class="btn btn-primary btn-sm btn-light add-posts" type="submit">Postar</button>
-              <select class="custom-select mr-3 col-4 col-md-2 privacyPost">
+              <select class="custom-select col-4 privacyPost">
                 <option value="Público" selected>Público</option>
                 <option value="Amigos">Amigos</option>
                 <option value="Privado">Privado</option>
               </select>
+              <button class="btn btn-primary btn-sm btn-light add-posts" type="submit">Postar</button>
             </div>
             <div class="card-body">
               <textarea class="card-text posts-input js-posts-textarea"
                 placeholder="Conte a seus amigos as novidades..."></textarea>
             </div>
-            <div class="card-footer d-flex justify-content-around background-green">            
+            <div class="card-footer d-flex justify-content-around background-green">
             </div>
           </div>
         </form>
         <section>
           <div class="filter card flex-md-row mb-2 box-shadow h-md-250">
-            <div class="card-header d-flex flex-column align-items-start background-green">
-              <h6><span><i class="fas fa-filter"></i></span>Filtrar publicações</h6>
-            </div>
-            <select class="custom-select mr-3 col-4 col-md-2 filter-privacy">
-              <option value="Público">Público</option>
-              <option value="Amigos">Amigos</option>
-              <option value="Privado">Privado</option>
-              <option value="Todos" selected>Todos</option>
+            <select class="custom-select col-12 filter-privacy">
+              <option value="Todos" selected>Filtrar as publicações - Ver Todas</option>
+              <option value="Público">Ver apenas as postadas para Público</option>
+              <option value="Amigos">Ver apenas as postadas para Amigos</option>
+              <option value="Privado">Ver apenas as postadas para Privado</option>
             </select>
           </div>
         </section>
@@ -123,12 +120,12 @@
       </main>
     </div>
   </section>
-  <footer class="page-footer font-small blue pt-4 background-green text-center">    
-      <h5>Adote, amigo não se não compra!</h5>    
-      <div class="footer-copyright py-3">© 2019 Copyright: Amanda Machado
-      </div>
+  <footer class="page-footer font-small blue pt-4 background-green text-center">
+    <h5>Adote, amigo não se não compra!</h5>
+    <div class="footer-copyright py-3">© 2019 Copyright: Amanda Machado
+    </div>
   </footer>
- 
+
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
