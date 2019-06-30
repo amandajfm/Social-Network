@@ -164,7 +164,7 @@ function getFilteredPostFromDb(selectPrivacy) {
 function signOut() {
     firebase.auth().signOut()
         .then(function () {
-            window.location = "signIn.html"
+            window.location = "index.html"
         })
         .catch(function (error) {
             console.log(error);
